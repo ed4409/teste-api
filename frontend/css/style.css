@@ -42,7 +42,7 @@ input {
 }
 
 button[type="submit"] {
-  background-color: #1500ff3d;
+  background-color: #1500ff80;
   height: 50px;
   width: 50px;
   border: none;
@@ -56,6 +56,15 @@ button[type="submit"] {
   cursor: pointer;
   
   
+}
+button[type="submit"]:hover {
+  transform: scale(1.2);
+	color: white;
+    filter: drop-shadow(0px 0px 10px #1500ff80);
+    cursor: pointer;
+	transition: 0.5s ease-in-out;
+
+
 }
 
 table {
@@ -104,7 +113,17 @@ select:hover {
 }
 .btn-action:hover:nth-child(1) {
   transform: scale(1.2);
-	color: #ebebeb;
+	color: crimson;
+    filter: drop-shadow(0px 0px 10px #ee3413de);
+    cursor: pointer;
+	transition: 0.5s ease-in-out;
+
+}
+
+
+.btn-action:hover:nth-child(2) {
+  transform: scale(1.2);
+	color: #ebebeba0;
     filter: drop-shadow(0px 0px 10px  orange);
     cursor: pointer;
 	transition: 0.5s ease-in-out;
